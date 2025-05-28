@@ -19,6 +19,7 @@ export default function Home() {
           alt="Profile"
           width={150}
           height={150}
+          unoptimized
           className="rounded-full mb-4 border-4 border-white"
         />
         <h1 className="text-4xl font-bold mb-2">Nattipan Jarunat</h1>
