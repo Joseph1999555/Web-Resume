@@ -2,14 +2,16 @@ const projects = [
   {
     project_type: 'Web Development',
     name: 'Web Resume',
-    desc: 'เว็บ Resume เท่ๆ อย่างที่มึงกำลังดูอยู่',
-    link: 'https://your-domain.com'
+    desc: 'Created a personal web resume to showcase my skills and projects.',
+    stack: 'Next.js, Tailwind CSS, TypeScript',
+    link: 'https://github.com/Joseph1999555/Web-Resume'
   },
   {
     project_type: 'Special Problem Project',
     name: 'Loma Type',
     desc: 'Developed a touch typing game to help users learn touch typing in programming languages.',
-    link: 'https://github.com/yourname/ecommerce-api'
+    stack: 'React.js, Node, MongoDB,',
+    link: 'https://github.com/Joseph1999555/LomatypeClient'
   }
 ]
 
@@ -23,6 +25,7 @@ export default function Projects() {
             <h3 className="text-xl font-semibold">{p.project_type}</h3>
             <h1 className="text-xl font-semibold">{p.name}</h1>
             <p className="text-gray-300">{p.desc}</p>
+            <p className="text-gray-300">stack: {p.stack}</p>
             <a href={p.link} className="text-teal-400 hover:underline" target="_blank">
               ดูโปรเจกต์ →
             </a>
