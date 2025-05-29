@@ -1,4 +1,4 @@
-const skills = ['React', 'Next.js', 'TypeScript', 'Node.js', 'Express', 'MongoDB', 'TailwindCSS']
+const skills = ['React', 'Next.js', 'Angular', 'Node.js', 'Spring-boot', 'MongoDB', 'MySQL']
 
 export default function Skills() {
   return (

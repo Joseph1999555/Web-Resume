@@ -22,9 +22,12 @@ export default function Home() {
           unoptimized
           className="rounded-full mb-4 border-4 border-white"
         />
-        <h1 className="text-4xl font-bold mb-2">Nattipan Jarunat</h1>
+        <h1 className="text-4xl font-bold mb-2">Nattipan Jarunat (Win)</h1>
         <p className="text-xl text-gray-300 max-w-xl">
-        Developer 
+        Email: nattipanjarunat@gmail.com 
+        </p>
+        <p className="text-xl text-gray-300 max-w-xl">
+        Phone: 098-329-2109 
         </p>
       </section>
 

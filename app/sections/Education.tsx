@@ -1,6 +1,6 @@
 const education = [
   {
-    school: 'Kasetsart University Kampangsean kampus (KUKPS)',
+    school: 'Kasetsart University Kampangsean campus (KUKPS)',
     degree: 'Faculty of liberal arts and science, Bachelor of Information Technology',
     year: '2021 - 2025'
   }

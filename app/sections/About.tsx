@@ -1,5 +1,5 @@
 const describe = {
-  des: "I'm fresh graduate from Kasetsart University Kampangsean kampus (KUKPS) with a Bachelor's degree in Information Technology.",
+  des: "I'm fresh graduate from Kasetsart University Kampangsean campus (KUKPS) with a Bachelor's degree in Information Technology.",
 }
 
 export default function About() {
