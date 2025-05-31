@@ -15,7 +15,7 @@ export default function Home() {
       {/* Hero Section */}
       <section className="flex flex-col items-center justify-center py-20 px-4 text-center">
         <Image
-          src="/profile.jpg" // ใส่รูปโปรไฟล์ไว้ที่ public/profile.jpg
+          src="/profile2.jpg" // ใส่รูปโปรไฟล์ไว้ที่ public/profile.jpg
           alt="Profile"
           width={150}
           height={150}

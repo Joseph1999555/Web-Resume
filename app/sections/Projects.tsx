@@ -12,6 +12,20 @@ const projects = [
     desc: 'Developed a touch typing game to help users learn touch typing in programming languages.',
     stack: 'React.js, Node, MongoDB,',
     link: 'https://github.com/Joseph1999555/LomatypeClient'
+  },
+  {
+    project_type: 'Virtual Machine',
+    name: 'VMware group project',
+    desc: 'Used VMware to create a virtual machine for running Linux and connecting sever between virtual machines.',
+    stack: 'VMware, Some command line of Linux',
+    link: ''
+  },
+  {
+    project_type: 'Machine Learning',
+    name: 'Bear Classification group project',
+    desc: 'Trained a machine learning model to classify images of bears into different species.',
+    stack: 'Python, Keras',
+    link: ''
   }
 ]
 
@@ -26,9 +40,16 @@ export default function Projects() {
             <h1 className="text-xl font-semibold">{p.name}</h1>
             <p className="text-gray-300">{p.desc}</p>
             <p className="text-gray-300">stack: {p.stack}</p>
-            <a href={p.link} className="text-teal-400 hover:underline" target="_blank">
-              ดูโปรเจกต์ →
-            </a>
+            {p.link && (
+              <a
+                href={p.link}
+                className="text-teal-400 hover:underline"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                ดูโปรเจกต์ →
+              </a>
+            )}
           </div>
         ))}
       </div>

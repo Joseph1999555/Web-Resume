@@ -1,7 +1,7 @@
 const jobs = [
   {
     company: 'SCMS Technology',
-    role: 'Full-stack Developer',
+    role: 'Full-stack Developer (Intern)',
     period: '25/11/2024 - 21/03/2025',
     detail: 'Developed and maintained web applications using angular, spring-boot, and mySql.'
   }
