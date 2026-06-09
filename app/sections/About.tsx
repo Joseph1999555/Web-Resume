@@ -4,7 +4,7 @@ const describe = {
 
 export default function About() {
   return (
-    <section className="px-6 py-12 bg-gray-800 text-white">
+    <section id="about" className="px-6 py-12 bg-gray-800 text-white">
       <h2 className="text-3xl font-bold mb-4">About me</h2>
       <p className="text-lg text-gray-300 max-w-3xl">
         {describe.des}

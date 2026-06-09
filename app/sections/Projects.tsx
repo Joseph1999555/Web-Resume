@@ -31,7 +31,7 @@ const projects = [
 
 export default function Projects() {
   return (
-    <section className="px-6 py-12 bg-gray-800 text-white">
+    <section id="projects" className="px-6 py-12 bg-gray-800 text-white">
       <h2 className="text-3xl font-bold mb-6">Project</h2>
       <div className="space-y-6">
         {projects.map((p, i) => (

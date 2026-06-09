@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import About from '../sections/About'
 import Skills from '../sections/Skills'
 import Projects from '../sections/Projects'
@@ -29,6 +30,14 @@ export default function Home() {
         <p className="text-xl text-gray-300 max-w-xl">
         Phone: 098-329-2109 
         </p>
+        <div className="mt-6">
+          <Link
+            href="/profile"
+            className="inline-flex items-center rounded-full bg-teal-500 px-5 py-2 text-sm font-semibold text-gray-950 hover:bg-teal-400 transition"
+          >
+            View Profile →
+          </Link>
+        </div>
       </section>
 
       <About />

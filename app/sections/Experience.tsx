@@ -9,7 +9,7 @@ const jobs = [
 
 export default function Experience() {
   return (
-    <section className="px-6 py-12 bg-gray-900 text-white">
+    <section id="experience" className="px-6 py-12 bg-gray-900 text-white">
       <h2 className="text-3xl font-bold mb-6">Experience</h2>
       <ul className="space-y-6">
         {jobs.map((job, i) => (
