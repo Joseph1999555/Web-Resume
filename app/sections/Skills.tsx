@@ -2,7 +2,7 @@ const skills = ['React', 'Next.js', 'Angular', 'Node.js', 'Spring-boot', 'MongoD
 
 export default function Skills() {
   return (
-    <section className="px-6 py-12 bg-gray-900 text-white">
+    <section id="skills" className="px-6 py-12 bg-gray-900 text-white">
       <h2 className="text-3xl font-bold mb-6">Tech Stack</h2>
       <div className="flex flex-wrap gap-4">
         {skills.map((skill, i) => (

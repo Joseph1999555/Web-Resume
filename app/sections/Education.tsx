@@ -8,7 +8,7 @@ const education = [
 
 export default function Education() {
   return (
-    <section className="px-6 py-12 bg-gray-800 text-white">
+    <section id="education" className="px-6 py-12 bg-gray-800 text-white">
       <h2 className="text-3xl font-bold mb-6">Education</h2>
       <ul className="space-y-4">
         {education.map((e, i) => (
